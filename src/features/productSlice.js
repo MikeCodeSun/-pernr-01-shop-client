@@ -1,5 +1,5 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
-import { axiosApi } from "../api/axios";
+import axiosApi from "../api/axios";
 
 const initialState = { product: null, loading: false, reviews: [] };
 

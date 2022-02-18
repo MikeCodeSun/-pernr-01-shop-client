@@ -1,6 +1,6 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import jwtDecode from "jwt-decode";
-import { axiosApi } from "../api/axios";
+import axiosApi from "../api/axios";
 
 const initialState = { user: null, error: null, products: [] };
 
